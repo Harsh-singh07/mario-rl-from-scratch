@@ -1,0 +1,1 @@
+"""Small neural-network building blocks for the week-one XOR exercise."""
