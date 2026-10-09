@@ -61,5 +61,4 @@ def test_terminal_update():
 if __name__ == "__main__":
     test_non_terminal_update()
     test_terminal_update()
-
     print("\n All Q-learning update tests passed.")

@@ -1,4 +1,4 @@
-class Gridworld:
+class GridWorld:
     def __init__(self, max_steps=50):
         self.rows=5
         self.cols=5
@@ -87,15 +87,15 @@ class Gridworld:
         for row in grid:
             print(" ".join(row))
         
-# Create the environment
-env = Gridworld()
+# # Create the environment
+# env = Gridworld()
 
-# Start/reset the environment
-state, info = env.reset()
+# # Start/reset the environment
+# state, info = env.reset()
 
-# Print information
-print("State:", state)
-print("Info:", info)
+# # Print information
+# print("State:", state)
+# print("Info:", info)
 
-# Display the grid
-env.render()
+# # Display the grid
+# env.render()
